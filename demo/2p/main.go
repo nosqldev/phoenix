@@ -17,10 +17,10 @@ import (
 
 func main() {
     Echo("Master0")
-    InitSV("Master0", "127.0.0.1", "10000")
-    RunListener(10000)
-    RunHeartbeat("10001")
-    time.Sleep(60 * time.Second)
+    InitSV("Master0", "127.0.0.1", "10002")
+    RunRegister(10000)
+    RunHeartbeat("10002")
+    time.Sleep(35 * time.Second)
 }
 
 /* vim: set expandtab tabstop=4 shiftwidth=4 foldmethod=marker: */

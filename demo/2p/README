@@ -1,0 +1,8 @@
+Intro
+-----
+This is just a demo to show network programming in go.
+
+Launch Master
+-------------
+go run main.go netlib.go shvar.go  // launch master
+go run hb.go netlib.go shvar.go    // launch heartbeat mock
