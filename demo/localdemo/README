@@ -1,0 +1,4 @@
+implement a simple cluster in one process.
+
+use go coroutine to simulate different servers,
+use channel to communicate
